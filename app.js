@@ -41,15 +41,16 @@ function encodeHex(str) {
   }
   return hex;
 }
-function process(input);
-if (toggle === 0) {
-//base64 div content === bota(input);
-//Hex div content === decodeHex(input);
-//Binary div content ==== decodeBinary(input);
-} else {
-  //base64 div content === atob(input);
-  //Hex div content === encodeHex(input);
-  //Binary div content ==== encodeBinary(input);
+function process(input) {
+  if (toggle === 0) {
+    //base64 div content === bota(input);
+    //Hex div content === decodeHex(input);
+    //Binary div content ==== decodeBinary(input);
+  } else {
+    //base64 div content === atob(input);
+    //Hex div content === encodeHex(input);
+    //Binary div content ==== encodeBinary(input);
+  }
 }
 
 //event listener on encode button toggle = 0, change color on encode button
